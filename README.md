@@ -1,1 +1,1 @@
-app tarea con javascript
+un ejemplo simple usando javaScript
