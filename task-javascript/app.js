@@ -56,7 +56,7 @@ function deleteTask(title) {
         }
     }
     let msg = document.querySelector('#task');
-            msg.innerHTML = `<p>Tarea borrada con exito</p>`;
+        msg.innerHTML = `<p>Tarea borrada con exito</p>`;
     localStorage.setItem('tasks', JSON.stringify(tasks));
 
     getTasks();
